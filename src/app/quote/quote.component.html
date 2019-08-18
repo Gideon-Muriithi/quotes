@@ -11,6 +11,7 @@
                 <p>{{quote.description}}</p>
             </div>
             <div *ngIf="quote.showDescription">
+                <hr>
               <div style="color: darkgray;">
                  <h6>{{quote.name}}</h6>
               <p>Submitted by {{quote.submitter}}, {{quote.completeDate|dateCount}} days ago</p>
