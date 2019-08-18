@@ -9,10 +9,10 @@
             <div>
                 <p>{{quote.description}}</p>
             </div>
-            <div *ngIf="quote.showDescription">
+            <div *ngIf="quote.showDescription" style="color: darkgray">
               <h6>{{quote.name}}</h6>
             </div>
-            <button type="button" (click) = 'toggleQuotes(i)' class="btn-sm">Quote Description</button>
+            <button type="button" (click) = 'toggleQuotes(i)' class="btn btn-sm btn-primary">Quote Details</button>
           </div>
     </div>
     <div class="col-md-6">
@@ -20,4 +20,4 @@
     </div>
   </div>
 </div>
-<p>sdd</p>
+
