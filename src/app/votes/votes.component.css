@@ -1,0 +1,15 @@
+.col {
+  padding: 2px;
+  margin: 2px;
+  border: none;
+  color: white;
+  float: left;
+  width:50px;
+  height:40%;
+}
+#voteButton{
+  background-color: darkgray;
+}
+#voteButton1{
+  background-color: darkgray;
+}

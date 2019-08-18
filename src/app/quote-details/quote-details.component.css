@@ -1,3 +1,26 @@
-#deleteButton{
-  width: 23%;
+a.hideDisplay{
+  position: relative;
+  z-index: 20;
+  color: darkgray;
+  text-decoration: none;
+  float: right;
+}
+a.hideDisplay:hover{
+  z-index: 30;
+}
+a.hideDisplay span.showDisplayOnHover{
+  display: none;
+}
+a.hideDisplay:hover span.showDisplayOnHover{
+  display: block;
+  position: absolute;
+  font-size: 16px;
+  width: 80px;
+  line-height: 20px;
+  top: -35px;
+  left: 10px;
+  border: none;
+  background-color: darkgray;
+  color: whitesmoke;
+  text-align: top;
 }

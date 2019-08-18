@@ -14,9 +14,10 @@
                 <hr>
               <div style="color: darkgray;">
                  <h6>{{quote.name}}</h6>
-              <p>Submitted by {{quote.submitter}}, {{quote.completeDate|dateCount}} days ago</p>
+              <p>Submitted by {{quote.submitter}}, {{quote.completeDate|dateCount}} days ago.</p>
             </div>
                 <app-quote-details [quote]='quote' (isComplete)='quoteDelete($event,i)'></app-quote-details>
+                <app-votes></app-votes>
             </div>
             <button id="toggleButton" type="button" (click) = 'toggleQuotes(i)' class="btn btn-sm btn-primary">Quote Details</button>
             <br><br>
