@@ -8,7 +8,7 @@
           <br>
           <div *ngFor='let quote of quotes; let i = index' class="card">
             <div>
-                <p>{{quote.description}}</p>
+                <p appHighestUpvotesHighlight>{{quote.description}}</p>
             </div>
             <div *ngIf="quote.showDescription">
                 <hr>
