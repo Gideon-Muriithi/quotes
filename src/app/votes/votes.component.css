@@ -7,12 +7,6 @@
   width:50px;
   height:40%;
 }
-#voteButton{
-  background-color: darkgray;
-}
-#voteButton1{
-  background-color: darkgray;
-}
 a.hideDisplay{
   position: relative;
   z-index: 20;

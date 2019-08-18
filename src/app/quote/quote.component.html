@@ -1,14 +1,18 @@
 <div class="container">
-  <div class="jumbotron"> <h3>Welcome to {{ title }}!</h3>
-  </div>
-  <hr>
+    <div class="card" id="header">
+        <img  class="card-img" src="assets/img.jpg">
+        <div class="card-img-overlay text-white text-center">
+    <h3 id="titlePadding">Welcome to {{ title }}!</h3>
+    </div>
+   </div>
+  <br>
   <div class="row">
      <div class="col-md-6">
-          <h5>Famous Quotes</h5>
-          <br>
-          <div *ngFor='let quote of quotes; let i = index' class="card">
+          <h5 class="jumbotron">Famous Quotes</h5>
+          <div *ngFor='let quote of quotes; let i = index' class="card" id="card1">
             <div>
-                <p appHighestUpvotesHighlight>{{quote.description}}</p>
+              <br>
+                <p appHighestUpvotesHighlight>{{quote.id}}. {{quote.description}}</p>
             </div>
             <div *ngIf="quote.showDescription">
                 <hr>
@@ -24,10 +28,13 @@
           </div>
     </div>
     <div class="col-md-6">
-      <h5>Add Your Favourite Quote(s)</h5>
+      <h5 class="jumbotron">Add Your Favourite Quote(s)</h5>
       <app-quote-form (addQuote)='addNewQuote($event)'></app-quote-form>
-
     </div>
   </div>
+  <br>
+  <hr>
+  <p style="text-align: center;">Copyright &copy; 2019, Gideon Muriithi</p>
+  <br>
 </div>
 

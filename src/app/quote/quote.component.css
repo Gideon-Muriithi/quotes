@@ -7,3 +7,28 @@ margin-right: 30%
 .card{
   border: none;
 }
+.card-img{
+  height: 300px;
+  width: auto;
+}
+#titlePadding{
+  position: absolute;
+  height: auto;
+  width: auto;
+  top: 38%;
+  left: 15%;
+  color: rgb(70, 65, 65);
+  font-weight: bolder;
+}
+.jumbotron{
+  padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:rgb(102, 114, 139);
+}
+#card1{
+  background-color: rgb(102, 114, 139);
+  font-weight: bolder;
+}
+.container{
+  background-color: rgb(252, 244, 244);
+}
