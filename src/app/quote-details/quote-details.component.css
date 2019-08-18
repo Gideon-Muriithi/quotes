@@ -3,6 +3,7 @@ a.hideDisplay{
   z-index: 20;
   color: darkgray;
   text-decoration: none;
+  left: -120px;
   float: right;
    background-color: darkgray;
 }
