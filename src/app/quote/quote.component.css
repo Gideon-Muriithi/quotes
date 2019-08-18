@@ -24,10 +24,11 @@ margin-right: 30%
   padding-top: 10px;
     padding-bottom: 10px;
     background-color:rgb(102, 114, 139);
+    font-weight: bolder;
 }
 #card1{
   background-color: rgb(102, 114, 139);
-  font-weight: bolder;
+  font-weight: bold;
 }
 .container{
   background-color: rgb(252, 244, 244);
