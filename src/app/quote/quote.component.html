@@ -10,8 +10,11 @@
             <div>
                 <p>{{quote.description}}</p>
             </div>
-            <div *ngIf="quote.showDescription" style="color: darkgray;">
-              <h6>{{quote.name}}</h6>
+            <div *ngIf="quote.showDescription">
+              <div style="color: darkgray;">
+                 <h6>{{quote.name}}</h6>
+              </div>
+                <app-quote-details [quote]='quote' (isComplete)='quoteDelete($event,i)'></app-quote-details>
             </div>
             <button id="toggleButton" type="button" (click) = 'toggleQuotes(i)' class="btn btn-sm btn-primary">Quote Details</button>
             <br><br>
