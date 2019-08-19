@@ -1,7 +1,7 @@
 # Quotes
 Author: Gideon Muriithi.
 
-This project was generated with Angular CLI version 8.2.2 by 
+This project was generated with Angular CLI version 8.2.2. 
 
 ## Description
 This is an angular application that displays famous quotes and allow user to add new quotes, vote for quotes, and delete the quotes.
