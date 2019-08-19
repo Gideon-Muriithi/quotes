@@ -5,7 +5,6 @@ a.hideDisplay{
   text-decoration: none;
   left: -120px;
   float: right;
-  top: 30px;
 }
 a.hideDisplay:hover{
   z-index: 30;

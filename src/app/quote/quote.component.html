@@ -13,18 +13,18 @@
             <div>
               <br>
                 <p appHighestUpvotesHighlight>{{quote.id}}. {{quote.description}}</p>
+                <app-quote-details [quote]='quote' (isComplete)='quoteDelete($event,i)'></app-quote-details>
+                <app-votes></app-votes>
             </div>
             <div *ngIf="quote.showDescription">
                 <hr>
               <div style="color: darkgray;">
                  <h6>{{quote.name}}</h6>
-              <p>Submitted by {{quote.submitter}}, {{quote.completeDate|dateCount}} days ago.</p>
+              <p>Submitted by {{quote.submitter}} {{quote.completeDate|dateCount}} days ago.</p>
             </div>
 
             </div>
             <button id="toggleButton" type="button" (click) = 'toggleQuotes(i)' style="background-color: darkgray;" class="btn btn-sm">Quote Details</button>
-            <app-quote-details [quote]='quote' (isComplete)='quoteDelete($event,i)'></app-quote-details>
-            <app-votes></app-votes>
           </div>
 
     </div>
