@@ -18,9 +18,14 @@ Angular CLI.
 
 Internet connection.
 
-## Installation
+Web browser installed on your machine to run this program. Examples: Chrome Mozilla Firefox Opera mini.
 
-Once you have angular cli in your machine, run `ng serve` for a dev server on the terminal. 
+## Installation
+Clone the repository of this project to your local machine from the online repository.
+
+Go to the working directory you prefer to store the files and open terminal while in that directory run 'git clone https:gideon-muriithi.github.io/quotes/'.
+
+Once you have angular cli in your machine, run `ng serve` for a dev server on the terminal while in the cloned project's directory. 
 
 Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
