@@ -6,7 +6,7 @@ This project was generated with Angular CLI version 8.2.2 by
 ## Description
 This is an angular application that displays famous quotes and allow user to add new quotes, vote for quotes, and delete the quotes.
 
-##Specification
+## Specification
 This app creates allow a user to add a new quote.
 
 User can also upvote or downvote for a quote as well as see when the quote was published.
@@ -28,7 +28,7 @@ Navigate to `http://localhost:4200/`. The app will automatically reload if you c
 Angular, HTML, CSS, Bootstrap.
 
 ## Link to the deploye site
-https://gideon-muriithi.github.io/quote/
+https://gideon-muriithi.github.io/quotes/
 
 ## Licence
 # MIT License
