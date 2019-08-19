@@ -4,22 +4,26 @@
   border: none;
   color: white;
   float: left;
-  width:50px;
-  height:40%;
+  width: 50px;
+  height: 40%;
 }
-a.hideDisplay{
+
+a.hideDisplay {
   position: relative;
   z-index: 20;
   color: darkgray;
   text-decoration: none;
 }
-a.hideDisplay:hover{
+
+a.hideDisplay:hover {
   z-index: 30;
 }
-a.hideDisplay span.showDisplayOnHover{
+
+a.hideDisplay span.showDisplayOnHover {
   display: none;
 }
-a.hideDisplay:hover span.showDisplayOnHover{
+
+a.hideDisplay:hover span.showDisplayOnHover {
   display: block;
   position: absolute;
   font-size: 16px;
@@ -32,19 +36,23 @@ a.hideDisplay:hover span.showDisplayOnHover{
   color: whitesmoke;
   text-align: top;
 }
-a.hideDisplay{
+
+a.hideDisplay {
   position: relative;
   z-index: 20;
   color: darkgray;
   text-decoration: none;
 }
-a.hideDisplay1:hover{
+
+a.hideDisplay1:hover {
   z-index: 30;
 }
-a.hideDisplay1 span.showDisplayOnHover1{
+
+a.hideDisplay1 span.showDisplayOnHover1 {
   display: none;
 }
-a.hideDisplay1:hover span.showDisplayOnHover1{
+
+a.hideDisplay1:hover span.showDisplayOnHover1 {
   display: block;
   position: absolute;
   font-size: 16px;
