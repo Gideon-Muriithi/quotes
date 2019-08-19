@@ -31,7 +31,7 @@ Angular, HTML, CSS, Bootstrap.
 https://gideon-muriithi.github.io/quotes/
 
 ## Licence
-# MIT License
+### MIT License
 
 Copyright (c) 2019 Gideon Muriithi
 
