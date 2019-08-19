@@ -20,12 +20,13 @@
                  <h6>{{quote.name}}</h6>
               <p>Submitted by {{quote.submitter}}, {{quote.completeDate|dateCount}} days ago.</p>
             </div>
-                <app-quote-details [quote]='quote' (isComplete)='quoteDelete($event,i)'></app-quote-details>
-                <app-votes></app-votes>
+
             </div>
             <button id="toggleButton" type="button" (click) = 'toggleQuotes(i)' style="background-color: darkgray;" class="btn btn-sm">Quote Details</button>
-            <br><br>
+            <app-quote-details [quote]='quote' (isComplete)='quoteDelete($event,i)'></app-quote-details>
+            <app-votes></app-votes>
           </div>
+
     </div>
     <div class="col-md-6">
       <h5 class="jumbotron">Add Your Favourite Quote(s)</h5>
